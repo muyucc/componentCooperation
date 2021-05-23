@@ -9,8 +9,15 @@ import InfoShow from './views/InfoShow'
 import FoundList from './views/FoundList'
 import proposalCheck from './views/proposalCheck'
 import createNewProposal from './views/createNewProposal'
-import mangerProposal from './views/mangerProposal'
+import manageProposal from './views/manageProposal'
 import openProposal from './views/openProposal'
+import path1 from './views/path1'
+import path2 from './views/path2'
+import authorityManagement from './views/authorityManagement'
+import database from './views/database'
+import qualityControl from './views/qualityControl'
+import compare from './views/compare'
+
 
 Vue.use(Router)
 
@@ -33,8 +40,15 @@ const router = new Router({
                 { path: '/foundlist', name: 'foundlist', component: FoundList },
                 { path: '/proposalCheck', name: 'proposalCheck', component: proposalCheck },
                 { path: '/createNewProposal', name: 'createNewProposal', component: createNewProposal },
-                { path: '/mangerProposal', name: 'mangerProposal', component: mangerProposal },
-                { path: '/openProposal', name: 'openProposal', component: openProposal }
+                { path: '/manageProposal', name: 'manageProposal', component: manageProposal },
+                { path: '/path1', name: 'path1', component: path1 },
+                { path: '/path2', name: 'path2', component: path2 },
+                { path: '/openProposal', name: 'openProposal', component: openProposal },
+                { path: '/authorityManagement', name: 'authorityManagement', component: authorityManagement },
+                { path: '/database', name: 'database', component: database },
+                { path: '/qualityControl', name: 'qualityControl', component: qualityControl },
+                { path: '/compare', name: 'compare', component: compare }
+
             ]
         },
 
